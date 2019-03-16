@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		168985A9223D2FC7006B2484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168985A8223D2FC7006B2484 /* AppDelegate.m */; };
+		168985AC223D2FC7006B2484 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168985AB223D2FC7006B2484 /* ViewController.m */; };
+		168985AE223D2FCD006B2484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168985AD223D2FCD006B2484 /* Assets.xcassets */; };
+		168985B1223D2FCD006B2484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168985AF223D2FCD006B2484 /* Main.storyboard */; };
+		168985B4223D2FCD006B2484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168985B3223D2FCD006B2484 /* main.m */; };
+		168985BF223D2FCD006B2484 /* PullDownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168985BE223D2FCD006B2484 /* PullDownButtonTests.m */; };
+		168985CA223D2FCD006B2484 /* PullDownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 168985C9223D2FCD006B2484 /* PullDownButtonUITests.m */; };
+		168985D9223D2FF9006B2484 /* CCPullDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 168985D7223D2FF8006B2484 /* CCPullDownButton.m */; };
+		B1962173F968D40B8E592033 /* libPods-PullDownButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE484A7FA3E2EC04DDC37C68 /* libPods-PullDownButton.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168985BB223D2FCD006B2484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1689859C223D2FC7006B2484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168985A3223D2FC7006B2484;
+			remoteInfo = PullDownButton;
+		};
+		168985C6223D2FCD006B2484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1689859C223D2FC7006B2484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168985A3223D2FC7006B2484;
+			remoteInfo = PullDownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA595EB975C4C4AB975EFBB /* Pods-PullDownButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullDownButton.release.xcconfig"; path = "Target Support Files/Pods-PullDownButton/Pods-PullDownButton.release.xcconfig"; sourceTree = "<group>"; };
+		0E74C058BCAA2232457453D5 /* Pods-PullDownButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PullDownButton.debug.xcconfig"; path = "Target Support Files/Pods-PullDownButton/Pods-PullDownButton.debug.xcconfig"; sourceTree = "<group>"; };
+		168985A4223D2FC7006B2484 /* PullDownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullDownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168985A7223D2FC7006B2484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		168985A8223D2FC7006B2484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		168985AA223D2FC7006B2484 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		168985AB223D2FC7006B2484 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		168985AD223D2FCD006B2484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168985B0223D2FCD006B2484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168985B2223D2FCD006B2484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168985B3223D2FCD006B2484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		168985B5223D2FCD006B2484 /* PullDownButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PullDownButton.entitlements; sourceTree = "<group>"; };
+		168985BA223D2FCD006B2484 /* PullDownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullDownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168985BE223D2FCD006B2484 /* PullDownButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownButtonTests.m; sourceTree = "<group>"; };
+		168985C0223D2FCD006B2484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168985C5223D2FCD006B2484 /* PullDownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullDownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168985C9223D2FCD006B2484 /* PullDownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownButtonUITests.m; sourceTree = "<group>"; };
+		168985CB223D2FCD006B2484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168985D7223D2FF8006B2484 /* CCPullDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPullDownButton.m; sourceTree = "<group>"; };
+		168985D8223D2FF8006B2484 /* CCPullDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPullDownButton.h; sourceTree = "<group>"; };
+		EE484A7FA3E2EC04DDC37C68 /* libPods-PullDownButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PullDownButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168985A1223D2FC7006B2484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1962173F968D40B8E592033 /* libPods-PullDownButton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168985B7223D2FCD006B2484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168985C2223D2FCD006B2484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04257732F6721D5220118942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E74C058BCAA2232457453D5 /* Pods-PullDownButton.debug.xcconfig */,
+				0AA595EB975C4C4AB975EFBB /* Pods-PullDownButton.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1689859B223D2FC7006B2484 = {
+			isa = PBXGroup;
+			children = (
+				168985A6223D2FC7006B2484 /* PullDownButton */,
+				168985BD223D2FCD006B2484 /* PullDownButtonTests */,
+				168985C8223D2FCD006B2484 /* PullDownButtonUITests */,
+				168985A5223D2FC7006B2484 /* Products */,
+				04257732F6721D5220118942 /* Pods */,
+				B95EA8AF4A8653320F74A4E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		168985A5223D2FC7006B2484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168985A4223D2FC7006B2484 /* PullDownButton.app */,
+				168985BA223D2FCD006B2484 /* PullDownButtonTests.xctest */,
+				168985C5223D2FCD006B2484 /* PullDownButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168985A6223D2FC7006B2484 /* PullDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				168985A7223D2FC7006B2484 /* AppDelegate.h */,
+				168985A8223D2FC7006B2484 /* AppDelegate.m */,
+				168985AA223D2FC7006B2484 /* ViewController.h */,
+				168985AB223D2FC7006B2484 /* ViewController.m */,
+				168985D8223D2FF8006B2484 /* CCPullDownButton.h */,
+				168985D7223D2FF8006B2484 /* CCPullDownButton.m */,
+				168985AD223D2FCD006B2484 /* Assets.xcassets */,
+				168985AF223D2FCD006B2484 /* Main.storyboard */,
+				168985B2223D2FCD006B2484 /* Info.plist */,
+				168985B3223D2FCD006B2484 /* main.m */,
+				168985B5223D2FCD006B2484 /* PullDownButton.entitlements */,
+			);
+			path = PullDownButton;
+			sourceTree = "<group>";
+		};
+		168985BD223D2FCD006B2484 /* PullDownButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				168985BE223D2FCD006B2484 /* PullDownButtonTests.m */,
+				168985C0223D2FCD006B2484 /* Info.plist */,
+			);
+			path = PullDownButtonTests;
+			sourceTree = "<group>";
+		};
+		168985C8223D2FCD006B2484 /* PullDownButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				168985C9223D2FCD006B2484 /* PullDownButtonUITests.m */,
+				168985CB223D2FCD006B2484 /* Info.plist */,
+			);
+			path = PullDownButtonUITests;
+			sourceTree = "<group>";
+		};
+		B95EA8AF4A8653320F74A4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE484A7FA3E2EC04DDC37C68 /* libPods-PullDownButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168985A3223D2FC7006B2484 /* PullDownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168985CE223D2FCD006B2484 /* Build configuration list for PBXNativeTarget "PullDownButton" */;
+			buildPhases = (
+				9DBE276F2E885BD63598688A /* [CP] Check Pods Manifest.lock */,
+				168985A0223D2FC7006B2484 /* Sources */,
+				168985A1223D2FC7006B2484 /* Frameworks */,
+				168985A2223D2FC7006B2484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullDownButton;
+			productName = PullDownButton;
+			productReference = 168985A4223D2FC7006B2484 /* PullDownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168985B9223D2FCD006B2484 /* PullDownButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168985D1223D2FCD006B2484 /* Build configuration list for PBXNativeTarget "PullDownButtonTests" */;
+			buildPhases = (
+				168985B6223D2FCD006B2484 /* Sources */,
+				168985B7223D2FCD006B2484 /* Frameworks */,
+				168985B8223D2FCD006B2484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168985BC223D2FCD006B2484 /* PBXTargetDependency */,
+			);
+			name = PullDownButtonTests;
+			productName = PullDownButtonTests;
+			productReference = 168985BA223D2FCD006B2484 /* PullDownButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		168985C4223D2FCD006B2484 /* PullDownButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168985D4223D2FCD006B2484 /* Build configuration list for PBXNativeTarget "PullDownButtonUITests" */;
+			buildPhases = (
+				168985C1223D2FCD006B2484 /* Sources */,
+				168985C2223D2FCD006B2484 /* Frameworks */,
+				168985C3223D2FCD006B2484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168985C7223D2FCD006B2484 /* PBXTargetDependency */,
+			);
+			name = PullDownButtonUITests;
+			productName = PullDownButtonUITests;
+			productReference = 168985C5223D2FCD006B2484 /* PullDownButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1689859C223D2FC7006B2484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.wujungao;
+				TargetAttributes = {
+					168985A3223D2FC7006B2484 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					168985B9223D2FCD006B2484 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 168985A3223D2FC7006B2484;
+					};
+					168985C4223D2FCD006B2484 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 168985A3223D2FC7006B2484;
+					};
+				};
+			};
+			buildConfigurationList = 1689859F223D2FC7006B2484 /* Build configuration list for PBXProject "PullDownButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1689859B223D2FC7006B2484;
+			productRefGroup = 168985A5223D2FC7006B2484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168985A3223D2FC7006B2484 /* PullDownButton */,
+				168985B9223D2FCD006B2484 /* PullDownButtonTests */,
+				168985C4223D2FCD006B2484 /* PullDownButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168985A2223D2FC7006B2484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168985AE223D2FCD006B2484 /* Assets.xcassets in Resources */,
+				168985B1223D2FCD006B2484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168985B8223D2FCD006B2484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168985C3223D2FCD006B2484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DBE276F2E885BD63598688A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PullDownButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168985A0223D2FC7006B2484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168985D9223D2FF9006B2484 /* CCPullDownButton.m in Sources */,
+				168985AC223D2FC7006B2484 /* ViewController.m in Sources */,
+				168985B4223D2FCD006B2484 /* main.m in Sources */,
+				168985A9223D2FC7006B2484 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168985B6223D2FCD006B2484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168985BF223D2FCD006B2484 /* PullDownButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168985C1223D2FCD006B2484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168985CA223D2FCD006B2484 /* PullDownButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168985BC223D2FCD006B2484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168985A3223D2FC7006B2484 /* PullDownButton */;
+			targetProxy = 168985BB223D2FCD006B2484 /* PBXContainerItemProxy */;
+		};
+		168985C7223D2FCD006B2484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168985A3223D2FC7006B2484 /* PullDownButton */;
+			targetProxy = 168985C6223D2FCD006B2484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168985AF223D2FCD006B2484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168985B0223D2FCD006B2484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168985CC223D2FCD006B2484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		168985CD223D2FCD006B2484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		168985CF223D2FCD006B2484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E74C058BCAA2232457453D5 /* Pods-PullDownButton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PullDownButton/PullDownButton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SGP5WX546J;
+				INFOPLIST_FILE = PullDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.PullDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		168985D0223D2FCD006B2484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA595EB975C4C4AB975EFBB /* Pods-PullDownButton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PullDownButton/PullDownButton.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SGP5WX546J;
+				INFOPLIST_FILE = PullDownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.PullDownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		168985D2223D2FCD006B2484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SGP5WX546J;
+				INFOPLIST_FILE = PullDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.PullDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullDownButton.app/Contents/MacOS/PullDownButton";
+			};
+			name = Debug;
+		};
+		168985D3223D2FCD006B2484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SGP5WX546J;
+				INFOPLIST_FILE = PullDownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.PullDownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PullDownButton.app/Contents/MacOS/PullDownButton";
+			};
+			name = Release;
+		};
+		168985D5223D2FCD006B2484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SGP5WX546J;
+				INFOPLIST_FILE = PullDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.PullDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PullDownButton;
+			};
+			name = Debug;
+		};
+		168985D6223D2FCD006B2484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SGP5WX546J;
+				INFOPLIST_FILE = PullDownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = proj.demo.PullDownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PullDownButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1689859F223D2FC7006B2484 /* Build configuration list for PBXProject "PullDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168985CC223D2FCD006B2484 /* Debug */,
+				168985CD223D2FCD006B2484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168985CE223D2FCD006B2484 /* Build configuration list for PBXNativeTarget "PullDownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168985CF223D2FCD006B2484 /* Debug */,
+				168985D0223D2FCD006B2484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168985D1223D2FCD006B2484 /* Build configuration list for PBXNativeTarget "PullDownButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168985D2223D2FCD006B2484 /* Debug */,
+				168985D3223D2FCD006B2484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168985D4223D2FCD006B2484 /* Build configuration list for PBXNativeTarget "PullDownButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168985D5223D2FCD006B2484 /* Debug */,
+				168985D6223D2FCD006B2484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1689859C223D2FC7006B2484 /* Project object */;
+}
