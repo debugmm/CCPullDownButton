@@ -168,6 +168,8 @@
 -(void)initConfigViews{
     
     [self.ccMenu setAutoenablesItems:YES];
+    
+#ifdef DEBUG
     self.menuItemWidth=80;
     
     for (NSInteger i=0; i<10; i++) {
@@ -189,8 +191,10 @@
         
         [self.ccMenu addItem:item];
     }
+#endif
 }
 
+#ifdef DEBUG
 #pragma mark - CCTextField
 -(void)selectedItemIndex:(NSInteger)index value:(NSString *)value{
     
@@ -211,6 +215,7 @@
         }
     }];
 }
+#endif
 
 #pragma mark - property
 -(NSMenu *)ccMenu{
