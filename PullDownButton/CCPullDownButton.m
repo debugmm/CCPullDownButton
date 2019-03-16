@@ -159,9 +159,8 @@
 -(void)initConfig{
     
     self.menuItemWidth=0;
-#ifdef DEBUG
+
     [self initConfigViews];
-#endif
 }
 
 //initConfigViews方法用来结合CCTextField，演示用
